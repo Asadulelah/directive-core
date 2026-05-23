@@ -1,0 +1,37 @@
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+*.log
+.npm/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.python-version
+
+# Build / artifacts
+dist/
+build/
+.next/
+.trigger/
+.modal/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Trigger.dev local
+.trigger/
+
+# Modal local
+.modal-cache/
